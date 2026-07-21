@@ -82,6 +82,8 @@ a:hover {
 .logo {
   width: min(22rem, 88vw);
   margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  background: var(--cream);
   filter: drop-shadow(0 12px 28px rgba(92, 77, 66, 0.12));
   animation: soft-float 6s ease-in-out infinite;
 }
